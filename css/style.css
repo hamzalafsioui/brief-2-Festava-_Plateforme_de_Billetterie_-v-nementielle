@@ -364,3 +364,43 @@ font-size: 2rem;
 }
 
 
+/* ========================== brands section ========================== */
+.brands-section {
+  text-align: center;
+  margin: 4rem auto;
+  max-width: 1000px;
+  padding: 2rem 1rem;
+}
+
+.brands-header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #242565;
+  margin-bottom: 0.5rem;
+}
+
+.brands-section p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.brands-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.brands-images img {
+  width: 120px;
+  height: auto;
+  opacity: 0.9;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.brands-images img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
