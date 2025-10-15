@@ -80,7 +80,7 @@ nav {
   gap: 30px;
 }
 
-/* hero section */
+/* ============================= hero section ============================== */
 
 .hero-section {
   width: 100%;
@@ -127,7 +127,173 @@ nav {
 
 .hero-buttons .events-btn {
   background-color: #f5167e;
+  border-style: none !important;
 }
 .hero-buttons .blog-btn {
   background-color: transparent;
+}
+
+/* ===================================== event-section ============================== */
+.event-section {
+  width: 90%;
+}
+.filter-search-events {
+  position: relative;
+  top: -150px;
+  left: 80px;
+  background-color: #242565;
+  border-radius: 10px;
+  width: 90%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.event-search-field {
+  display: flex;
+  flex-direction: column;
+}
+.event-search-field label {
+  color: #ffffff;
+}
+.event-search-field input,
+.event-search-field select,
+.event-search-field input::placeholder {
+  color: #ffffff;
+  padding: 15px;
+  background-color: transparent;
+  border-style: none;
+  border-bottom: 1px solid #ffffff;
+  font-weight: 500px;
+  font-size: 1.3rem;
+}
+.event-search-field select {
+  padding: 30px 20px !important;
+}
+.event-search-field input:focus {
+  outline: none;
+}
+.upcoming-events {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -150px;
+}
+.upcoming-event-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 1rem 0;
+  margin: 50px 0;
+}
+.upcoming-event-selects {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.upcoming-event-title {
+  color: #242565;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.event-select {
+  position: relative;
+  display: inline-block;
+}
+.event-select select {
+  background-color: #f2f4ff;
+  color: #1d275f;
+  border-radius: 30px;
+  border-style: none;
+  padding: 10px 35px 10px 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* ===================================== upcoming event grid  =============================================*/
+.upcoming-event-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.event-card {
+  background: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.event-header{
+    display: flex;
+    justify-content: space-between;
+}
+.event-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+
+
+.event-info { 
+  padding: 1rem 1.2rem;
+}
+
+.event-date {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  margin-right: 10px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   
+}
+.event-date-month {
+  color: #3d37f1;
+}
+.event-date-day {
+font-size: 2rem;
+}
+
+.event-title {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.event-desc {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.event-card.large {
+  grid-column: span 2;
+}
+.event-card.large .event-header {
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.btn-load-more{
+  display: block;
+  background-color: transparent;
+  color: #3d37f1;
+  border: 1px solid #3d37f1;
+  margin: 2.5rem auto 0 auto; 
+  font-weight: 600;
+  padding: 1.5 rem 2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
