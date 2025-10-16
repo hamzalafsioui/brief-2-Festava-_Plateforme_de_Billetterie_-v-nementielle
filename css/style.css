@@ -604,7 +604,7 @@ footer {
 }
 
 .subscribe button:hover {
-  background-color: #ff2e8b;
+  background-color: #F5167E;
 }
 
 
@@ -620,4 +620,18 @@ footer p {
   color: #bcbcbc;
 }
 
+/* ============================= active button ========================== */
 
+nav ul li a.active {
+  position: relative;
+  font-weight: 600;
+}
+nav ul li a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #F5167E; 
+}
