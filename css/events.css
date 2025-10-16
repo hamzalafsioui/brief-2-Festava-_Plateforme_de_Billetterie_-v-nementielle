@@ -1,0 +1,79 @@
+
+:root {
+  --white-color: #ffffff;
+  --pink-color: #f5167e;
+  --gray-color: #6a6a6a;
+  --purple-color: #242565;
+  --blue-color: #3d37f1;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  height: 2000px;
+}
+
+
+.background-img {
+  background-image: url("../img/bg2.png"), url("../img/bg.png") !important;
+}
+
+
+
+/* ============================= hero section ============================== */
+
+
+
+.hero {
+
+  gap: 4rem;
+  overflow: hidden;
+}
+
+.hero-content h1 span {
+  color: var(--pink-color);
+}
+
+.hero-img {
+  position: relative;
+  top: -11.3rem;
+}
+
+.hero-content {
+  padding-left: 1rem;
+  margin-left: 8rem;
+}
+.hero-content h1 {
+  line-height: 1.5;
+  font-weight: 300;
+  
+}
+.hero-content p {
+  width: 22rem;
+}
+.second-spn-header{
+    margin-left: 50px;
+}
+.hero-buttons .discover-events-btn {
+  background-color: var(--pink-color);
+  border-style: none !important;
+  font-weight: 600;
+  padding: 1.3rem 1.4rem;
+
+}
+
+/* ===================================== event-section ============================== */
+
+
+/* ===================================== upcoming event grid  =============================================*/
+
+
+/* ===================================== own-event-section ============================== */
+
+
+
+/* ========================== FOOTER ========================== */
+
+
+/* ============================= active button ========================== */
+
+
