@@ -9,9 +9,6 @@
 
 
 
-.background-img {
-  background-image: url("../img/bg2.png"), url("../img/bg.png") !important;
-}
 
 
 
@@ -21,55 +18,52 @@
 
 .hero {
 
-  gap: 4rem;
-  overflow: hidden;
+  justify-content: center;
+  align-items: center !important;
+
+}
+.hero-content{
+    margin-top: 8rem;
 }
 
+
+.hero-content h1 {
+  line-height: 1.3;
+  font-weight: 300;
+}
 .hero-content h1 span {
   color: var(--pink-color);
 }
-
-.hero-img {
-  position: relative;
-  top: -11.3rem;
+.second-spn-header {
+  margin-left: 50px;
 }
 
-.hero-content {
-  padding-left: 1rem;
-  margin-left: 8rem;
-}
-.hero-content h1 {
-  line-height: 1.5;
-  font-weight: 300;
-  
-}
 .hero-content p {
-  width: 22rem;
+  font-weight: 200;
 }
-.second-spn-header{
-    margin-left: 50px;
-}
-.hero-buttons .discover-events-btn {
+
+.discover-btn {
   background-color: var(--pink-color);
   border-style: none !important;
   font-weight: 600;
-  padding: 1.3rem 1.4rem;
+  width: 180px;
+  height: auto;
+  transition: transform 0.2s ease;
 
+}
+.discover-btn:hover{
+    transform: scale(1.1);
 }
 
 /* ===================================== event-section ============================== */
 
-
 /* ===================================== upcoming event grid  =============================================*/
 
+/* ===================================== own-event-section (Full width) ============================== */
 
-/* ===================================== own-event-section ============================== */
+/* ========================== brands section ========================== */
 
+/* ================ blog section  ============================  */
 
 
 /* ========================== FOOTER ========================== */
-
-
-/* ============================= active button ========================== */
-
-

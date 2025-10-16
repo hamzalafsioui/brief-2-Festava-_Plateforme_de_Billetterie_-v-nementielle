@@ -13,7 +13,7 @@
 
 body {
   font-family: "DM Sans", sans-serif;
-  height: 2000px;
+  /* height: 2000px; */
 }
 
 /* global button property */
@@ -418,7 +418,7 @@ font-size: 2rem;
 .blog-section {
   text-align: center;
   max-width: 1200px; 
-  margin: 5rem auto;
+  margin: -1rem auto;
   padding: 0 2rem;
 }
 
