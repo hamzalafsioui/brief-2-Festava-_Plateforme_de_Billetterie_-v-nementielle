@@ -1,0 +1,48 @@
+.hero{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 350px;
+    color: #ffffff;
+    margin-left: 8rem;
+}
+.login-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.login-field label{
+    margin-bottom: 7px;
+}
+.login-field input{
+    border-radius: 40px;
+    opacity: 0.75;
+    background-color: #D9D9D9;
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+.forget-password{
+    margin-bottom: 7px;
+}
+.forget-password a:hover{
+    text-decoration: underline;
+}
+.submit-field button{
+background-color: #F5167E;
+font-weight: 300;
+padding: 0.6rem 2rem;
+transition: transform 0.6s ease;
+font-size: 1.1rem;
+}
+.submit-field button:hover{
+    transform: scale(1.1);
+}
