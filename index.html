@@ -21,7 +21,7 @@
     <div class="container">
       <header class="header-section">
         <div class="logo-container">
-          <img src="img/logo.png" />
+          <a href="./index.html"> <img src="./img/logo.png" /></a>
         </div>
         <nav>
           <ul class="nav-links">
@@ -30,8 +30,12 @@
             <li><a href="./pages/blog.html">Blogs</a></li>
           </ul>
           <div class="auth-buttons">
-            <a href="./pages/login.html"><button class="login-btn">Login</button></a>
-            <button class="signup-btn">Sign Up</button>
+            <a href="./pages/login.html"
+              ><button class="login-btn">Login</button></a
+            >
+            <a href="./pages/sign-up.html"
+              ><button class="signup-btn">Sign Up</button></a
+            >
           </div>
         </nav>
       </header>
@@ -48,13 +52,13 @@
               obcaecati. Ad ratione facilis dolor dolorum.
             </p>
             <div class="hero-buttons">
-              <button class="events-btn">Events</button>
-              <button class="blog-btn">Blog</button>
+              <a href="#events"><button class="events-btn">Events</button></a>
+              <a href="#blogs"><button class="blog-btn">Blog</button></a>
             </div>
           </div>
         </div>
       </section>
-      <section class="event-section">
+      <section class="event-section" id="events">
         <div class="filter-search-events">
           <div class="event-search-field">
             <label for="search">Search Event</label>
@@ -248,7 +252,7 @@
         <img src="./img/image 15.png" />
       </div>
     </section>
-    <section class="blog-section">
+    <section class="blog-section" id="blogs">
       <h2 class="blog-header">Blog</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
@@ -319,7 +323,7 @@
         </div>
         <div class="footer-content-side">
           <h5 class="footer-content-header">Eventick</h5>
-          <ul >
+          <ul>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Press</a></li>
             <li><a href="#">Contact Us</a></li>
@@ -331,13 +335,17 @@
         </div>
         <div class="footer-content-side">
           <h5 class="footer-content-header">Stay In The Loop</h5>
-          <p style="width: 300px;">
+          <p style="width: 300px">
             Join our mailing list to stay in the loop with our news for event
             and concert
           </p>
           <form class="subscribe">
-            <input type="email"placeholder="Enter your email address" required />
-            <button type="submit" >Subscribe</button>
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <button type="submit">Subscribe</button>
           </form>
         </div>
       </div>
